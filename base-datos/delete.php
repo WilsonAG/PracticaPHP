@@ -7,13 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-<form action="insert-result.php" method="post">
-    Ingrese nombre del curso:
-    <input type="text" name="nombrecurso" size="40">
+<form action="delete-result.php" method="post">
+    Ingrese nombre del curso a borrar:
+    <input type="text" name="nombrecurso">
     <br>
-    <input type="submit" value="Confirmar" name="sumbit">
+    <input type="submit" value="Borrar">
   </form>
-
-
 </body>
 </html>

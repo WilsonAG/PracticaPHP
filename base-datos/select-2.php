@@ -7,13 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-<form action="insert-result.php" method="post">
-    Ingrese nombre del curso:
-    <input type="text" name="nombrecurso" size="40">
+<form action="select-2-result.php" method="post">
+    Ingrese nombre del alumno:
+    <input type="text" name="nombre">
     <br>
-    <input type="submit" value="Confirmar" name="sumbit">
+    <input type="submit" value="buscar">
   </form>
-
-
 </body>
 </html>
